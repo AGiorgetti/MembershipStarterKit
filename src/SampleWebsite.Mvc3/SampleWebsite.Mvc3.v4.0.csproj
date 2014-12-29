@@ -183,7 +183,9 @@
     <Content Include="Scripts\modernizr-1.7.js" />
     <Content Include="Scripts\modernizr-1.7.min.js" />
     <Content Include="Scripts\modernizr-2.0.6-development-only.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -220,13 +222,13 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvcMembership\MvcMembership.csproj">
-      <Project>{C9D7F653-E589-44CE-9D41-89821F4F9E4E}</Project>
-      <Name>MvcMembership</Name>
-    </ProjectReference>
+    <Content Include="Areas\MvcMembership\Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Areas\MvcMembership\Views\Web.config" />
+    <ProjectReference Include="..\MvcMembership\MvcMembership.v4.0.csproj">
+      <Project>{c9d7f653-e589-44ce-9d41-89821f4f9e4e}</Project>
+      <Name>MvcMembership.v4.0</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

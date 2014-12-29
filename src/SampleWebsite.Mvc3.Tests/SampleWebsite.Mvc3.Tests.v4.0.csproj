@@ -90,13 +90,13 @@
     <Compile Include="UserAdministrationControllerFacts.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvcMembership\MvcMembership.csproj">
-      <Project>{C9D7F653-E589-44CE-9D41-89821F4F9E4E}</Project>
-      <Name>MvcMembership</Name>
+    <ProjectReference Include="..\MvcMembership\MvcMembership.v4.0.csproj">
+      <Project>{c9d7f653-e589-44ce-9d41-89821f4f9e4e}</Project>
+      <Name>MvcMembership.v4.0</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SampleWebsite.Mvc3\SampleWebsite.Mvc3.csproj">
-      <Project>{65C3A21B-D946-45B6-8A7E-2DBB98E35E0C}</Project>
-      <Name>SampleWebsite.Mvc3</Name>
+    <ProjectReference Include="..\SampleWebsite.Mvc3\SampleWebsite.Mvc3.v4.0.csproj">
+      <Project>{65c3a21b-d946-45b6-8a7e-2dbb98e35e0c}</Project>
+      <Name>SampleWebsite.Mvc3.v4.0</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
